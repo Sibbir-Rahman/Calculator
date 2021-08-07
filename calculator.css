@@ -1,0 +1,92 @@
+*{margin: 0;padding: 0; box-sizing: border-box;}
+
+body{
+    background-color: #ecedef;
+}
+
+.wraper {
+    margin: 0 auto;
+    width: 17rem;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 0rem;
+}
+
+.card {
+    background: #FF060A;
+    overflow: hidden;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+
+input.show-btn {
+    background: transparent;
+    border: none;
+    height: 6rem;
+    font-size: 2.5rem;
+    text-align: right;
+    font-weight: bold;
+    padding: 0rem 1rem;
+    width: 100%;
+}
+
+::placeholder {
+    color: rgb(247, 229, 229);
+}
+.cal-body {
+    background: #fff;
+    overflow: hidden;
+}
+
+.cal-body {
+    background: #fff;
+    overflow: hidden;
+    padding: .9rem;
+    width: 100%;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+input.cal-btn {
+    border-radius: 50%;
+    border: none;
+    background: #ecedef;
+    margin-bottom: .8rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #595758;
+    width: 3.2rem;
+    height: 3.8rem;
+    text-align: center;
+    transition: 0.3s;
+    margin: .2rem;
+    box-shadow: 0px 2px 2px #ddd;
+}
+
+.eqal {
+    color: #fff;
+}
+
+input.cal-btn.eqal {
+    background: #FF060A;
+    color: #fff;
+}
+
+input.cal-btn:hover {
+    background: #2f2727;
+    color: #fff;
+}
+
+input.cal-btn.del {
+    font-size: 1rem;
+}
+
+input.cal-btn.clear {
+    background: #2f2727;
+    color: #fff;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPrt html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div class="wraper">
+        <h2>Calculator</h2>
+        <div class="calculator">
+
+            <div class="card">
+                <input type="text" placeholder="0" id="result" maxlength="10" class="show-btn">
+            </div>
+
+            <div class="cal-body">
+
+                <div>
+                    <input type="button" value="C" class="cal-btn clear" onclick="clearResult()">
+                    <input type="button" value="+/-" class="cal-btn" onclick="insurtNumber('+/-')">
+                    <input type="button" value="%" class="cal-btn" onclick="insurtNumber('%')">
+                    <input type="button" value="/" class="cal-btn" onclick="insurtNumber('/')">
+                </div>
+
+                <div>
+                    <input type="button" value="7" class="cal-btn" onclick="insurtNumber(7)">
+                    <input type="button" value="8" class="cal-btn" onclick="insurtNumber(8)">
+                    <input type="button" value="9" class="cal-btn" onclick="insurtNumber(9)">
+                    <input type="button" value="+" class="cal-btn" onclick="insurtNumber('+')">
+                </div>
+
+                <div>
+                    <input type="button" value="4" class="cal-btn" onclick="insurtNumber(4)">
+                    <input type="button" value="5" class="cal-btn" onclick="insurtNumber(5)">
+                    <input type="button" value="6" class="cal-btn" onclick="insurtNumber(6)">
+                    <input type="button" value="-" class="cal-btn" onclick="insurtNumber('-')">
+                </div>
+                <div>
+
+                    <input type="button" value="1" class="cal-btn" onclick="insurtNumber(1)">
+                    <input type="button" value="2" class="cal-btn" onclick="insurtNumber(2)">
+                    <input type="button" value="3" class="cal-btn" onclick="insurtNumber(3)">
+                    <input type="button" value="×" class="cal-btn" onclick="insurtNumber('*')">
+                </div>
+
+                <div>
+                    <input type="button" value="0" class="cal-btn" onclick="insurtNumber(0)">
+                    <input type="button" value="." class="cal-btn" onclick="insurtNumber('.')">
+                    <input type="button" value="DEL" class="cal-btn del" onclick="deleteNumber()">
+                    <input type="button" value="=" class="cal-btn eqal" onclick="calculate()">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
